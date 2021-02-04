@@ -114,19 +114,22 @@
     * Cache-Control: private : '브라우저'같은 특정 사용자 환경에만 저장
     * Cache-Control: max-age : 캐시 유효시간을 명시
     
- * Pragma : HTTP/1.0에서 사용하던 캐시 제어
- * Content-Type, Content-Encoding, Content-Length, Content-Language : 본문 설정   
+   * Pragma : HTTP/1.0에서 사용하던 캐시 제어
+   * Content-Type, Content-Encoding, Content-Length, Content-Language : 본문 설정      
  
- * 요청 헤더
+ 
+* 요청 헤더
   * Host : 요청하려는 url 정보
   * User-anget : 클라이언트 프로그램 정보 ex) 브라우저 정보
   * Referer : 직전에 머물러 있던 페이지 정보
   * Accept, Accept-charset, Accept-language, Accept-encoding : 클라이언트 정보
   * Authorization : 인증 토큰 정보
   * Origin : 맨 처음 시작 요청 주소값
-  * Cookie : 쿠키 값   
+  * Cookie : 쿠키 값     
   
- * 응답 헤더
+  
+  
+* 응답 헤더
   * Location : 301,302에 사용되는 헤더로 변경된 주소를 지정
   * Server : 웹서버의 종류
   * Age : max-age 시간에서 얼마나 지났는지 (초단위)
